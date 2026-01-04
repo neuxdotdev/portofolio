@@ -1,6 +1,6 @@
 # About Me
 
-I’m **Muhammad Ridwan Hafidi**, a 17-year-old student with ~2 years of experience in programming, primarily focused on **JavaScript**.
+I’m **Muhammad Ridwan Hafidi**, a 18-year-old student with ~2 years of experience in programming, primarily focused on **JavaScript**.
 
 I work mostly on **libraries, frameworks, and developer tools**. I care about making software that is small, reusable, and easy to integrate without unnecessary complexity.
 
