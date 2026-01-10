@@ -1,0 +1,151 @@
+/* === CSS Reset & Variables === */
+:root {
+  --vp-c-brand: #10b981;
+  --vp-c-brand-light: #34d399;
+  --vp-c-brand-dark: #059669;
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-elv: #ffffff;
+  
+  /* Custom variables */
+  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --vp-font-family-mono: 'Fira Code', 'Cascadia Code', 'Monaco', monospace;
+  
+  /* Spacing */
+  --vp-layout-max-width: 1200px;
+}
+
+.dark {
+  --vp-c-bg: #0a0a0a;
+  --vp-c-bg-alt: #111111;
+  --vp-c-bg-elv: #1a1a1a;
+}
+
+/* === Smooth Scrolling === */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* === Hero Section Enhancement === */
+.VPHome {
+  padding-top: 4rem !important;
+}
+
+.VPHome .image-bg {
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* === Typography Refinement === */
+.vp-doc h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.5rem;
+}
+
+.vp-doc h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--vp-c-divider);
+  padding-bottom: 0.5rem;
+}
+
+.vp-doc h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* === Code Blocks === */
+.vp-doc div[class*="language-"] {
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.vp-doc div[class*="language-"] pre {
+  padding: 1.5rem;
+}
+
+/* === Badges & Shields === */
+.vp-doc table {
+  margin: 2rem 0;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vp-doc table img {
+  transition: transform 0.2s ease;
+}
+
+.vp-doc table img:hover {
+  transform: translateY(-2px);
+}
+
+/* === Layout Improvements === */
+.VPContent {
+  padding-bottom: 4rem;
+}
+
+.VPNavBar {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.dark .VPNavBar {
+  background-color: rgba(10, 10, 10, 0.85) !important;
+}
+
+/* === Custom Components === */
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.callout {
+  padding: 1.25rem;
+  border-radius: 8px;
+  background: var(--vp-c-bg-alt);
+  border-left: 4px solid var(--vp-c-brand);
+  margin: 1.5rem 0;
+}
+
+.callout.warning {
+  border-left-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.05);
+}
+
+.callout.danger {
+  border-left-color: #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+}
+
+/* === Smooth Animations === */
+.VPNavBarTitle,
+.VPNavBarMenuLink,
+.social-links a {
+  transition: all 0.2s ease;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+  .vp-doc h1 {
+    font-size: 2rem;
+  }
+  
+  .vp-doc h2 {
+    font-size: 1.5rem;
+  }
+  
+  .badge-grid {
+    grid-template-columns: 1fr;
+  }
+}

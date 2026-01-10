@@ -1,79 +1,116 @@
+---
+layout: home
+title: Neuxdotdev · Portfolio
+hero:
+  name: Muhammad Ridwan Hafidi
+  text: Building Developer Tools
+  tagline: Focused on libraries, frameworks, and CLI tooling. Making software small, reusable, and predictable.
+  image:
+    src: /avatar.png
+    alt: Neuxdotdev
+  actions:
+    - theme: brand
+      text: View Projects
+      link: https://github.com/neuxdotdev
+      target: _blank
+    - theme: alt
+      text: Contact
+      link: '#contact'
+      type: secondary
+features:
+  - title: Library Design
+    details: Creating minimal, explicit APIs with strong validation and predictable behavior.
+    icon: 🧩
+  - title: Developer Experience
+    details: Focused on tools that are easy to understand, hard to misuse, and simple to integrate.
+    icon: ⚡
+  - title: Open Source
+    details: All projects are released under permissive open-source licenses with transparent development.
+    icon: 🔓
+---
+
 # About Me
 
-I’m **Muhammad Ridwan Hafidi**, a 18-year-old student with ~2 years of experience in programming, primarily focused on **JavaScript**.
+::: tip
+I'm **Muhammad Ridwan Hafidi**, a 17-year-old student with ~2 years of experience focused on **JavaScript ecosystem tools**.
+:::
 
-I work mostly on **libraries, frameworks, and developer tools**. I care about making software that is small, reusable, and easy to integrate without unnecessary complexity.
+I work primarily on **libraries, frameworks, and developer tools**. My philosophy centers around creating software that is:
+
+- **Minimal** - Only what's necessary, nothing more
+- **Reusable** - Designed for composition and integration
+- **Predictable** - Deterministic behavior, no hidden magic
+- **Explicit** - Clear APIs, strong validation
 
 ---
 
 ## Technical Focus
 
-- **Primary:** JavaScript (Node.js)
-- **Interests:**
-  - Library and framework design
-  - CLI tooling
-  - Developer experience (DX)
-  - API design
-  - Deterministic and predictable systems
+### Primary Stack
+- **JavaScript/TypeScript** (Node.js, Browser APIs)
+- **Library & Framework Design** - API architecture, plugin systems
+- **CLI Tooling** - Developer productivity, build tools, generators
+- **Performance Optimization** - Bundle size, runtime efficiency
+
+### Interests & Specialties
+- **Developer Experience (DX)** - Creating tools developers love to use
+- **API Design** - Intuitive interfaces with strong type safety
+- **Deterministic Systems** - Predictable behavior, no race conditions
+- **Open Source Sustainability** - Maintenance, documentation, community
 
 ---
 
 ## Principles
 
-I value:
+::: warning
+**Core Belief**: Good tools should be easy to understand but hard to misuse.
+:::
 
-- Minimal and explicit APIs
-- Predictable behavior
-- Strong validation
-- Low magic, high clarity
+### What I Value
+- **Minimal APIs** - Fewer concepts to learn, more power per concept
+- **Predictability** - Same input → same output, always
+- **Strong Validation** - Fail fast, fail clearly
+- **Transparency** - No magic, source should explain behavior
 
-Good tools should be:
-
-- Easy to understand
-- Hard to misuse
-- Simple to integrate
+### Design Philosophy
+```javascript
+// Example: What good API design feels like
+const result = tool.process(input, {
+  validate: true,    // Explicit options
+  strict: false,     // Clear behavior
+  format: 'json'     // No guessing needed
+})
+```
 
 ---
 
-## Ecosystem
+## Featured Projects
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/neuxdotdev">
-        <img src="https://img.shields.io/badge/GitHub-neuxdotdev-181717?logo=github&logoColor=white" alt="GitHub">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.npmjs.com/~neuxdotdev">
-        <img src="https://img.shields.io/badge/npm-neuxdotdev-CB3837?logo=npm&logoColor=white" alt="npm">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://pypi.org/user/neuxdotdevpy">
-        <img src="https://img.shields.io/badge/PyPI-neuxdotdevpy-3775A9?logo=pypi&logoColor=white" alt="PyPI">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://ko-fi.com/neuxdotdev">
-        <img src="https://img.shields.io/badge/Ko--fi-support-FF5E5B?logo=kofi&logoColor=white" alt="Ko-fi">
-      </a>
-    </td>
-  </tr>
-</table>
+<div class="badge-grid">
+  <a href="https://github.com/neuxdotdev" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-10+_Projects-181717?logo=github&logoColor=white" alt="GitHub Projects">
+  </a>
+  <a href="https://www.npmjs.com/~neuxdotdev" target="_blank">
+    <img src="https://img.shields.io/badge/npm-Published_Packages-CB3837?logo=npm&logoColor=white" alt="npm Packages">
+  </a>
+  <a href="https://pypi.org/user/neuxdotdevpy" target="_blank">
+    <img src="https://img.shields.io/badge/PyPI-Python_Tools-3775A9?logo=pypi&logoColor=white" alt="PyPI">
+  </a>
+  <a href="https://ko-fi.com/neuxdotdev" target="_blank">
+    <img src="https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=kofi&logoColor=white" alt="Ko-fi">
+  </a>
+</div>
 
 ---
 
 ## Cryptographic Identity
 
-### SSH
-
+### SSH Key
 ```sh
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFynmcg656dWXCAdbTslKMCVseHYgWCGJ1E67aIkDF2m neuxdev1@gmail.com
 ```
 
 ### GPG Public Key
-
 ```sh
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
@@ -92,23 +129,30 @@ usjNm2Ne4gBKs+Uqs8OONsqgjOKMfZ0QpnzQAwY/Lg0+YbJ9UAVI6p+lfQARAQAB
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-### GPG Fingerprint
-
-```sh
-CF3C 9873 53D4 C8A5 B88E 8C63 88E5 543B 47AC 4550
-```
+**Fingerprint**: `CF3C 9873 53D4 C8A5 B88E 8C63 88E5 543B 47AC 4550`
 
 ---
 
-## Contact
+## <span id="contact">Contact & Connect</span>
 
-- **Email:** [neuxdev1@gmail.com](mailto:neuxdev1@gmail.com)
+::: tip
+**Email**: [neuxdev1@gmail.com](mailto:neuxdev1@gmail.com)
+:::
+
+### Quick Links
+- **GitHub**: [github.com/neuxdotdev](https://github.com/neuxdotdev)
+- **npm**: [npmjs.com/~neuxdotdev](https://www.npmjs.com/~neuxdotdev)
+- **Twitter**: [twitter.com/neuxdotdev](https://twitter.com/neuxdotdev)
+
+### Availability
+- Open to **collaborations** on interesting tools/libraries
+- Available for **technical consulting** on DX/API design
+- Reviewing **open source contributions** in JS/TS ecosystem
 
 ---
 
 ## License
 
-Unless stated otherwise, projects are released under permissive open-source licenses.
-Check individual repositories for details.
+Unless stated otherwise, all personal projects are released under **MIT License** or similarly permissive licenses. Check individual repositories for specific licensing details.
 
-> Building small, reliable tools — one repo at a time.
+> Building small, reliable tools — one focused repository at a time.
